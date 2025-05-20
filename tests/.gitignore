@@ -1,0 +1,39 @@
+# Ignore Pester test result files
+*.TestResult.xml
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore build output folders (if you build or package)
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.ps1xml
+
+# Ignore PowerShell log files or temp files
+*.log
+*.tmp
+
+# Ignore PowerShell debug files
+*.psd1.user
+
+# Ignore module packaging artifacts
+*.nupkg
+*.nuspec
+
+# Ignore git itself (rarely needed)
+.git/
+
+# Ignore any backup files
+*~
+*.bak
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
+
+# Ignore IDE/project files if any
+*.suo
+*.userprefs
