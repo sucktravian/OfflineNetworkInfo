@@ -8,8 +8,9 @@ Retrieve static network settings directly from the Windows registry, even when t
 - Supports systems even when disconnected from the network.
 - Useful in recovery or forensic environments.
 
-## Usage
+## Installation
+
+You can install the module directly from the PowerShell Gallery:
 
 ```powershell
-Import-Module .\OfflineNetworkInfo.psm1
-Get-OfflineNetworkConfig
+Install-Module -Name OfflineNetworkInfo
