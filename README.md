@@ -14,3 +14,4 @@ You can install the module directly from the PowerShell Gallery:
 
 ```powershell
 Install-Module -Name OfflineNetworkInfo
+Get-OfflineNetworkConfig
